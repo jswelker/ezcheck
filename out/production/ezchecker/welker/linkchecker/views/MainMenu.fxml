@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="root" maxHeight="618.0" maxWidth="850.0" minHeight="500.0" minWidth="850.0" prefHeight="618.0" prefWidth="850.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TabPane fx:id="tabs" layoutX="15.0" layoutY="24.0" prefHeight="279.0" prefWidth="400.0" style="" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab id="textTab" fx:id="textTab" style="" text="Import Text File">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="248.0" prefWidth="400.0" style="&#10;" styleClass="tab-sub-pane">
+              <children>
+                <GridPane maxWidth="-1.0" prefWidth="350.0" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="37.0">
+                  <children>
+                    <Label text="Field Delimiter" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                    <TextField fx:id="textInputFileName" maxWidth="110.0" prefWidth="110.0" promptText="" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                      <tooltip>
+                        <Tooltip text="The location of the text file containing links." />
+                      </tooltip>
+                    </TextField>
+                    <Button fx:id="textInputFileBrowse" maxWidth="59.0" minWidth="59.0" mnemonicParsing="false" prefWidth="59.0" text="Browse" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                      <GridPane.margin>
+                        <Insets left="115.0" />
+                      </GridPane.margin>
+                    </Button>
+                    <ChoiceBox fx:id="inputDelimiter" prefWidth="175.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Tab [\t]" />
+                          <String fx:value="Tilde [~]" />
+                        </FXCollections>
+                      </items>
+                      <tooltip>
+                        <Tooltip text="The character used to delimit fields in the input text file. Only Tab [\t] and Tilde [~] are supported." />
+                      </tooltip>
+                    </ChoiceBox>
+                    <TextField fx:id="textRecordsToSkip" prefWidth="200.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                      <tooltip>
+                        <Tooltip text="The number of records in the text file to skip. This is helpful if your computer shut down or crashed in the middle of a large link-checking job and you want to pick up where it stopped. Note that this number should not include any header row present in your file." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="bibColNum" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                      <tooltip>
+                        <Tooltip text="The number of the column in your text file that contains a Bib Record ID or other ID number. Numbering starts at 1. This field should contain numeric values only." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="m856ColNum" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                      <tooltip>
+                        <Tooltip text="The number of the column in your text file that contains a hyperlink or a whole MARC 856 field. Numbering starts at 1. This field should contain numeric values only." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="titleColNum" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                      <tooltip>
+                        <Tooltip text="The number of the column in your text file that contains a title. Numbering starts at 1. This field should contain numeric values only." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="authorColNum" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                      <tooltip>
+                        <Tooltip text="The number of the column in your text file that contains an author. Numbering starts at 1. This field should contain numeric values only." />
+                      </tooltip>
+                    </TextField>
+                    <CheckBox fx:id="headerRow" mnemonicParsing="false" selected="true" text="Data includes a header row" GridPane.columnIndex="0" GridPane.rowIndex="7">
+                      <tooltip>
+                        <Tooltip text="Check this if your text file has a header row at the top containing column names." />
+                      </tooltip>
+                    </CheckBox>
+                    <Label text="Bib Record ID Column #" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                    <Label text="856 or Hyperlink Column #" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                    <Label text="Title Column #" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                    <Label text="Author Column #" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+                    <Label text="Input File" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                    <Label prefWidth="115.0" text="Records to Skip" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                  </children>
+                  <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                </GridPane>
+                <Label text="Input File Settings" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="14.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="marcTab" fx:id="marcTab" text="Import MARC File">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="tab-sub-pane">
+              <children>
+                <GridPane prefHeight="87.0" prefWidth="350.0" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="37.0">
+                  <children>
+                    <Label text="Input File" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                    <TextField fx:id="marcInputFileName" maxWidth="110.0" minWidth="110.0" prefWidth="110.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                      <tooltip>
+                        <Tooltip text="The location of the .MRC or .MRK file to be processed." />
+                      </tooltip>
+                    </TextField>
+                    <Button id="marcInputFileButton" fx:id="marcInputFileBrowse" mnemonicParsing="false" text="Browse" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                      <GridPane.margin>
+                        <Insets left="115.0" />
+                      </GridPane.margin>
+                    </Button>
+                    <Label text="Records to Skip" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                    <TextField fx:id="marcRecordsToSkip" prefWidth="200.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                      <tooltip>
+                        <Tooltip text="The number of records to skip from the beginning of the MARC file. This is useful when a very large load of records is interrupted and you want to start from where it left off." />
+                      </tooltip>
+                    </TextField>
+                  </children>
+                  <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="242.0" minWidth="10.0" prefWidth="175.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="258.0" minWidth="10.0" prefWidth="175.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="5.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                </GridPane>
+                <Label text="Input File Settings" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="14.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab id="sqlTab" fx:id="sqlTab" text="Sierra SQL">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="232.0" prefWidth="400.0" style="" styleClass="tab-sub-pane">
+              <children>
+                <GridPane layoutX="30.0" layoutY="37.0" prefHeight="194.5" prefWidth="350.0">
+                  <children>
+                    <TextField fx:id="sierraUsername" prefWidth="200.0" promptText="" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                      <tooltip>
+                        <Tooltip text="A username for Sierra. This user must be authorized for Direct SQL Access." />
+                      </tooltip>
+                    </TextField>
+                    <Label prefWidth="141.0" text="Sierra Username" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                    <Label text="Sierra Password" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                    <Label text="Sierra SQL Server Host" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                    <Label text="Sierra SQL Server Port" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                    <Label text="Item Location Code Start" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                    <Label text="Item Location Code End" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                    <PasswordField fx:id="sierraPassword" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                      <tooltip>
+                        <Tooltip text="A Sierra password." />
+                      </tooltip>
+                    </PasswordField>
+                    <TextField fx:id="sqlHost" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                      <tooltip>
+                        <Tooltip text="The IP address or hostname of the Sierra PostgreSQL server." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="sqlPort" prefWidth="200.0" text="1032" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                      <tooltip>
+                        <Tooltip text="The port number of the Sierra PostgreSQL server. 1032 by default." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="itemLocationStart" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                      <tooltip>
+                        <Tooltip text="The Sierra location code at the beginning of the range of records to search. For instance, if you wanted to search &quot;lm&quot; to &quot;lmzzz&quot;, this field would contain &quot;lm&quot;." />
+                      </tooltip>
+                    </TextField>
+                    <TextField fx:id="itemLocationEnd" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                      <tooltip>
+                        <Tooltip text="The Sierra location code at the end of the range of records to search. For instance, if you wanted to search &quot;lm&quot; to &quot;lmzzz&quot;, this field would contain &quot;lmzzz&quot;." />
+                      </tooltip>
+                    </TextField>
+                    <Label text="Bib Record Start Number" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+                    <TextField fx:id="bibRecordStart" prefWidth="200.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                      <tooltip>
+                        <Tooltip text="Do not include the beginning &quot;b&quot; or the 8th numeric check digit of the Sierra bib record numberOnly Sierra records with a bib number higher than this value will be searched. This program processes records in ascending order based on the bib record number. This is useful if your computer crashes or shuts down midway through a large link-checking job and you want to pick up where it left off.  To check links for all records, leave this value at 0." />
+                      </tooltip>
+                    </TextField>
+                  </children>
+                  <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="175.0" minWidth="10.0" prefWidth="150.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.0" minWidth="10.0" prefWidth="199.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                    <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                </GridPane>
+                <Label layoutX="29.0" layoutY="14.0" text="Connection Settings" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <TitledPane animated="false" collapsible="false" focusTraversable="false" layoutX="448.0" layoutY="24.0" prefHeight="114.0" prefWidth="400.0" text="Output Settings">
+      <content>
+        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="84.0" prefWidth="394.0">
+          <children>
+            <GridPane layoutX="14.0" layoutY="13.0" prefHeight="72.0" prefWidth="352.0">
+              <children>
+                <Label text="Output field delimiter" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <Label text="File Name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                <ChoiceBox fx:id="outputDelimiter" prefWidth="196.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                  <items>
+                    <FXCollections fx:factory="observableArrayList">
+                      <String fx:value="Tab [\t]" />
+                      <String fx:value="Tilde [~]" />
+                    </FXCollections>
+                  </items>
+                  <tooltip>
+                    <Tooltip text="The character used to delimit fields in the output text file. Only Tab [\t] and Tilde [~] are supported." />
+                  </tooltip>
+                </ChoiceBox>
+                <TextField fx:id="outputFileName" editable="true" maxWidth="130.0" prefWidth="130.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <tooltip>
+                    <Tooltip text="The name and location of the output file that will be generated." />
+                  </tooltip>
+                </TextField>
+                <Button fx:id="outputFileBrowse" mnemonicParsing="false" text="Browse" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1" />
+              </children>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="175.0" minWidth="10.0" prefWidth="156.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="203.0" minWidth="10.0" prefWidth="196.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="25.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+          </children>
+        </AnchorPane>
+      </content>
+    </TitledPane>
+    <Button fx:id="start" defaultButton="true" disable="false" layoutX="476.0" layoutY="568.0" mnemonicParsing="false" prefWidth="150.0" text="Start" />
+    <Button fx:id="stop" cancelButton="true" disable="true" layoutX="648.0" layoutY="568.0" mnemonicParsing="false" prefWidth="150.0" text="Stop" />
+    <Separator layoutX="431.0" layoutY="24.0" orientation="VERTICAL" prefHeight="522.0" />
+    <TitledPane animated="false" collapsible="false" disable="false" expanded="true" focusTraversable="false" layoutX="450.0" layoutY="153.0" prefHeight="393.0" prefWidth="387.0" text="Results" textAlignment="LEFT">
+      <content>
+        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="302.0" prefWidth="381.0">
+          <children>
+            <TextArea fx:id="outputLog" disable="false" editable="false" focusTraversable="false" layoutX="11.0" layoutY="100.0" pickOnBounds="false" prefHeight="255.0" prefWidth="356.0" text="" wrapText="true">
+              <tooltip>
+                <Tooltip text="Result summaries and error messages are displayed here." />
+              </tooltip>
+            </TextArea>
+            <Label fx:id="statusLabel" layoutX="14.0" layoutY="35.0" text="Inactive" />
+            <ProgressBar fx:id="progressBar" layoutX="11.0" layoutY="65.0" prefHeight="22.0" prefWidth="356.0" progress="0.0" />
+            <ProgressIndicator fx:id="workingIndicator" disable="false" layoutX="332.0" layoutY="10.0" minWidth="13.0" prefHeight="37.0" prefWidth="35.0" progress="-1.0" visible="false" />
+          </children>
+        </AnchorPane>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" collapsible="false" layoutX="14.0" layoutY="319.0" prefHeight="227.0" prefWidth="400.0" text="Link Options">
+      <content>
+        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="205.0" prefWidth="394.0">
+          <children>
+            <Label layoutX="29.0" layoutY="14.0" text="Ignore links containing (separate with semicolons)" />
+            <TextArea fx:id="ignoreLinks" layoutX="29.0" layoutY="38.0" prefHeight="151.0" prefWidth="350.0" wrapText="true" />
+          </children>
+        </AnchorPane>
+      </content>
+    </TitledPane>
+  </children>
+  <stylesheets>
+    <URL value="@styles.css" />
+  </stylesheets>
+</AnchorPane>

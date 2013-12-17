@@ -1,0 +1,21 @@
+.tab-sub-pane{
+	-fx-border-color: #cccccc;
+	-fx-border-width: 0px 1px 1px 1px;
+	-fx-border-style: solid;
+}
+
+.tab-header-background{
+	-fx-background-color: null;
+	-fx-background-color: #cccccc;
+}
+
+.titled-pane .title{
+	-fx-background-color: #cccccc;
+}
+
+.titled-pane .content{
+	-fx-background-color: null;
+	-fx-border-color: #cccccc;
+	-fx-border-width: 0.0px 1px 1px 1px;
+}
+
