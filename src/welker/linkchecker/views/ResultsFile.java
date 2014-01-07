@@ -1,5 +1,6 @@
-package welker.linkchecker.models;
+package welker.linkchecker.views;
 
+import welker.linkchecker.models.Link;
 import welker.linkchecker.views.GUI;
 
 import java.io.BufferedWriter;

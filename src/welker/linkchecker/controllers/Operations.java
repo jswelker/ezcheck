@@ -1,22 +1,20 @@
 package welker.linkchecker.controllers;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.concurrent.*;
 
 import javafx.concurrent.Task;
 import welker.linkchecker.models.*;
 import welker.linkchecker.views.GUI;
+import welker.linkchecker.views.ResultsFile;
 
 public class Operations {
 	
 	private GUI gui;
 	
 	private ArrayList<Link> links;
-	
-	private String outputDelimiter;
 
+	private String outputDelimiter;
     private String[] linksToIgnore;
 
     private int errors;
@@ -31,23 +29,23 @@ public class Operations {
         this.isProcessing = false;
 	}
 	
-	public synchronized void createTask(String tabName){
+	public synchronized void createTask(String processType){
 		
 		//create a thread for this activity and then start running it
 		class ThreadedTask extends Task{
-			private String tabName;
-			public ThreadedTask(String tabName){
-				this.tabName = tabName;
+			private String processType;
+			public ThreadedTask(String processType){
+				this.processType = processType;
 			}
 
 			@Override
 			protected Object call() throws Exception {
-                processData(tabName);
+                processData(processType);
                 return null;
 			}
 		}
 		//create the thread and set it as a daemon so that it closes when the main thread closes
-		currentOperation = new Thread(new ThreadedTask(tabName));
+		currentOperation = new Thread(new ThreadedTask(processType));
 		currentOperation.setDaemon(true);
 		currentOperation.start();
 
@@ -56,12 +54,12 @@ public class Operations {
 	}
 
 	
-	private void processData(String tabName){
+	private void processData(String processType){
 
 		//Determine which type of process was selected by the user and do special logic for 
 		//each of those to get a normalized ArrayList of Link objects
 
-		switch(tabName){
+		switch(processType){
 		case "sql":
 			System.out.println("Running processSQL...");
 			this.processSQL();
