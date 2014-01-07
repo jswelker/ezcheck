@@ -67,78 +67,8 @@
       <file leaf-file-name="GUI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="3189" max-vertical-offset="12002">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3100#3204#0" expanded="true" />
-                <element signature="e#3199#3200#0" expanded="true" />
-                <element signature="e#16726#16727#0" expanded="true" />
-                <element signature="e#16750#16751#0" expanded="true" />
-                <element signature="e#16780#16781#0" expanded="true" />
-                <element signature="e#16799#16800#0" expanded="true" />
-                <element signature="e#16828#16829#0" expanded="true" />
-                <element signature="e#16846#16847#0" expanded="true" />
-                <element signature="e#16887#16888#0" expanded="true" />
-                <element signature="e#16917#16918#0" expanded="true" />
-                <element signature="e#16959#16960#0" expanded="true" />
-                <element signature="e#16987#16988#0" expanded="true" />
-                <element signature="e#17030#17031#0" expanded="true" />
-                <element signature="e#17059#17060#0" expanded="true" />
-                <element signature="e#17095#17096#0" expanded="true" />
-                <element signature="e#17118#17119#0" expanded="true" />
-                <element signature="e#17160#17161#0" expanded="true" />
-                <element signature="e#17188#17189#0" expanded="true" />
-                <element signature="e#17230#17231#0" expanded="true" />
-                <element signature="e#17258#17259#0" expanded="true" />
-                <element signature="e#17293#17294#0" expanded="true" />
-                <element signature="e#17314#17315#0" expanded="true" />
-                <element signature="e#17349#17350#0" expanded="true" />
-                <element signature="e#17370#17371#0" expanded="true" />
-                <element signature="e#17415#17416#0" expanded="true" />
-                <element signature="e#17446#17447#0" expanded="true" />
-                <element signature="e#17489#17490#0" expanded="true" />
-                <element signature="e#17518#17519#0" expanded="true" />
-                <element signature="e#17560#17561#0" expanded="true" />
-                <element signature="e#17588#17589#0" expanded="true" />
-                <element signature="e#17633#17634#0" expanded="true" />
-                <element signature="e#17664#17665#0" expanded="true" />
-                <element signature="e#17709#17710#0" expanded="true" />
-                <element signature="e#17740#17741#0" expanded="true" />
-                <element signature="e#17782#17783#0" expanded="true" />
-                <element signature="e#17810#17811#0" expanded="true" />
-                <element signature="e#17847#17848#0" expanded="true" />
-                <element signature="e#17870#17871#0" expanded="true" />
-                <element signature="e#17908#17909#0" expanded="true" />
-                <element signature="e#17932#17933#0" expanded="true" />
-                <element signature="e#17971#17972#0" expanded="true" />
-                <element signature="e#17996#17997#0" expanded="true" />
-                <element signature="e#18036#18037#0" expanded="true" />
-                <element signature="e#18062#18063#0" expanded="true" />
-                <element signature="e#18097#18098#0" expanded="true" />
-                <element signature="e#18120#18121#0" expanded="true" />
-                <element signature="e#18165#18166#0" expanded="true" />
-                <element signature="e#18196#18197#0" expanded="true" />
-                <element signature="e#18241#18242#0" expanded="true" />
-                <element signature="e#18272#18273#0" expanded="true" />
-                <element signature="e#18303#18304#0" expanded="true" />
-                <element signature="e#18321#18322#0" expanded="true" />
-                <element signature="e#18349#18350#0" expanded="true" />
-                <element signature="e#18369#18370#0" expanded="true" />
-                <element signature="e#18398#18399#0" expanded="true" />
-                <element signature="e#18419#18420#0" expanded="true" />
-                <element signature="e#18448#18449#0" expanded="true" />
-                <element signature="e#18469#18470#0" expanded="true" />
-                <element signature="e#18503#18504#0" expanded="true" />
-                <element signature="e#18528#18529#0" expanded="true" />
-                <element signature="e#18568#18569#0" expanded="true" />
-                <element signature="e#18593#18594#0" expanded="true" />
-                <element signature="e#18644#18645#0" expanded="true" />
-                <element signature="e#18674#18675#0" expanded="true" />
-                <element signature="e#18713#18714#0" expanded="true" />
-                <element signature="e#18747#18748#0" expanded="true" />
-                <element signature="e#18780#18781#0" expanded="true" />
-                <element signature="e#18803#18804#0" expanded="true" />
-              </folding>
+            <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="12240">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +76,7 @@
       <file leaf-file-name="Operations.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="37" selection-start="8513" selection-end="8513" vertical-scroll-proportion="0.0" vertical-offset="4209" max-vertical-offset="5015">
+            <state line="272" column="37" selection-start="8513" selection-end="8513" vertical-scroll-proportion="0.0" vertical-offset="4624" max-vertical-offset="5134">
               <folding />
             </state>
           </provider>
@@ -155,31 +85,9 @@
       <file leaf-file-name="Link.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="106" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.3232662" vertical-offset="1071" max-vertical-offset="4301">
+            <state line="121" column="27" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.77964205" vertical-offset="1360" max-vertical-offset="3927">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6178#6179#0" expanded="true" />
-                <element signature="e#6207#6208#0" expanded="true" />
-                <element signature="e#6243#6244#0" expanded="true" />
-                <element signature="e#6280#6281#0" expanded="true" />
-                <element signature="e#6331#6332#0" expanded="true" />
-                <element signature="e#6375#6376#0" expanded="true" />
-                <element signature="e#6440#6441#0" expanded="true" />
-                <element signature="e#6498#6499#0" expanded="true" />
-                <element signature="e#6529#6530#0" expanded="true" />
-                <element signature="e#6556#6557#0" expanded="true" />
-                <element signature="e#6588#6589#0" expanded="true" />
-                <element signature="e#6616#6617#0" expanded="true" />
-                <element signature="e#6649#6650#0" expanded="true" />
-                <element signature="e#6678#6679#0" expanded="true" />
-                <element signature="e#6714#6715#0" expanded="true" />
-                <element signature="e#6746#6747#0" expanded="true" />
-                <element signature="e#6776#6777#0" expanded="true" />
-                <element signature="e#6802#6803#0" expanded="true" />
-                <element signature="e#6846#6847#0" expanded="true" />
-                <element signature="e#6886#6887#0" expanded="true" />
-                <element signature="e#6922#6923#0" expanded="true" />
-                <element signature="e#6954#6955#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,10 +96,8 @@
       <file leaf-file-name="ResultsFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/ResultsFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="21" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="2006">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="41" column="21" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="2006">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -257,6 +163,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -289,137 +196,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linkchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linkchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linkchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="linkchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetty-distribution-9.0.5.v20130815" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ezchecker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jetty-distribution-9.0.5.v20130815" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -673,7 +455,7 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -681,13 +463,11 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -701,6 +481,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -755,11 +537,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/styles.css">
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12240">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="37" selection-start="8513" selection-end="8513" vertical-scroll-proportion="0.0" vertical-offset="4624" max-vertical-offset="5134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="106" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="3927">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/ResultsFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="21" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="37" selection-start="8513" selection-end="8513" vertical-scroll-proportion="0.0" vertical-offset="4624" max-vertical-offset="5134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="106" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="4301">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/ResultsFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="21" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
@@ -767,37 +607,13 @@
         <state line="198" column="111" selection-start="6644" selection-end="6644" vertical-scroll-proportion="0.0" vertical-offset="3366" max-vertical-offset="5542">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6178#6179#0" expanded="true" />
-            <element signature="e#6207#6208#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6280#6281#0" expanded="true" />
-            <element signature="e#6331#6332#0" expanded="true" />
-            <element signature="e#6375#6376#0" expanded="true" />
-            <element signature="e#6440#6441#0" expanded="true" />
-            <element signature="e#6498#6499#0" expanded="true" />
-            <element signature="e#6529#6530#0" expanded="true" />
-            <element signature="e#6556#6557#0" expanded="true" />
-            <element signature="e#6588#6589#0" expanded="true" />
-            <element signature="e#6616#6617#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
-            <element signature="e#6678#6679#0" expanded="true" />
-            <element signature="e#6714#6715#0" expanded="true" />
-            <element signature="e#6746#6747#0" expanded="true" />
-            <element signature="e#6776#6777#0" expanded="true" />
-            <element signature="e#6802#6803#0" expanded="true" />
-            <element signature="e#6846#6847#0" expanded="true" />
-            <element signature="e#6886#6887#0" expanded="true" />
-            <element signature="e#6922#6923#0" expanded="true" />
-            <element signature="e#6954#6955#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="0" selection-start="10660" selection-end="10660" vertical-scroll-proportion="0.0" vertical-offset="5661" max-vertical-offset="6222">
-          <folding />
-        </state>
+        <state line="333" column="0" selection-start="10660" selection-end="10660" vertical-scroll-proportion="0.0" vertical-offset="5661" max-vertical-offset="6222" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/SQLDataset.java">
@@ -818,9 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
@@ -828,28 +642,6 @@
         <state line="34" column="0" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="5542">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6178#6179#0" expanded="true" />
-            <element signature="e#6207#6208#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6280#6281#0" expanded="true" />
-            <element signature="e#6331#6332#0" expanded="true" />
-            <element signature="e#6375#6376#0" expanded="true" />
-            <element signature="e#6440#6441#0" expanded="true" />
-            <element signature="e#6498#6499#0" expanded="true" />
-            <element signature="e#6529#6530#0" expanded="true" />
-            <element signature="e#6556#6557#0" expanded="true" />
-            <element signature="e#6588#6589#0" expanded="true" />
-            <element signature="e#6616#6617#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
-            <element signature="e#6678#6679#0" expanded="true" />
-            <element signature="e#6714#6715#0" expanded="true" />
-            <element signature="e#6746#6747#0" expanded="true" />
-            <element signature="e#6776#6777#0" expanded="true" />
-            <element signature="e#6802#6803#0" expanded="true" />
-            <element signature="e#6846#6847#0" expanded="true" />
-            <element signature="e#6886#6887#0" expanded="true" />
-            <element signature="e#6922#6923#0" expanded="true" />
-            <element signature="e#6954#6955#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -863,23 +655,12 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="0" selection-start="10660" selection-end="10660" vertical-scroll-proportion="7.9563184" vertical-offset="0" max-vertical-offset="5661">
-          <folding />
-        </state>
+        <state line="333" column="0" selection-start="10660" selection-end="10660" vertical-scroll-proportion="7.9563184" vertical-offset="0" max-vertical-offset="5661" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projects/github projects/LibraryH3lp-Transfer-Bot/src/welker/transferbot/Chat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1125" selection-end="1177" vertical-scroll-proportion="-2.5861297" vertical-offset="2907" max-vertical-offset="6341">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/TextFileDataset.java">
@@ -907,9 +688,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/com/sun/glass/ui/win/WinApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.3322091" vertical-offset="262" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="28" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.3322091" vertical-offset="262" max-vertical-offset="1513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml">
@@ -922,77 +701,7 @@
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="3189" max-vertical-offset="12002">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3100#3204#0" expanded="true" />
-            <element signature="e#3199#3200#0" expanded="true" />
-            <element signature="e#16726#16727#0" expanded="true" />
-            <element signature="e#16750#16751#0" expanded="true" />
-            <element signature="e#16780#16781#0" expanded="true" />
-            <element signature="e#16799#16800#0" expanded="true" />
-            <element signature="e#16828#16829#0" expanded="true" />
-            <element signature="e#16846#16847#0" expanded="true" />
-            <element signature="e#16887#16888#0" expanded="true" />
-            <element signature="e#16917#16918#0" expanded="true" />
-            <element signature="e#16959#16960#0" expanded="true" />
-            <element signature="e#16987#16988#0" expanded="true" />
-            <element signature="e#17030#17031#0" expanded="true" />
-            <element signature="e#17059#17060#0" expanded="true" />
-            <element signature="e#17095#17096#0" expanded="true" />
-            <element signature="e#17118#17119#0" expanded="true" />
-            <element signature="e#17160#17161#0" expanded="true" />
-            <element signature="e#17188#17189#0" expanded="true" />
-            <element signature="e#17230#17231#0" expanded="true" />
-            <element signature="e#17258#17259#0" expanded="true" />
-            <element signature="e#17293#17294#0" expanded="true" />
-            <element signature="e#17314#17315#0" expanded="true" />
-            <element signature="e#17349#17350#0" expanded="true" />
-            <element signature="e#17370#17371#0" expanded="true" />
-            <element signature="e#17415#17416#0" expanded="true" />
-            <element signature="e#17446#17447#0" expanded="true" />
-            <element signature="e#17489#17490#0" expanded="true" />
-            <element signature="e#17518#17519#0" expanded="true" />
-            <element signature="e#17560#17561#0" expanded="true" />
-            <element signature="e#17588#17589#0" expanded="true" />
-            <element signature="e#17633#17634#0" expanded="true" />
-            <element signature="e#17664#17665#0" expanded="true" />
-            <element signature="e#17709#17710#0" expanded="true" />
-            <element signature="e#17740#17741#0" expanded="true" />
-            <element signature="e#17782#17783#0" expanded="true" />
-            <element signature="e#17810#17811#0" expanded="true" />
-            <element signature="e#17847#17848#0" expanded="true" />
-            <element signature="e#17870#17871#0" expanded="true" />
-            <element signature="e#17908#17909#0" expanded="true" />
-            <element signature="e#17932#17933#0" expanded="true" />
-            <element signature="e#17971#17972#0" expanded="true" />
-            <element signature="e#17996#17997#0" expanded="true" />
-            <element signature="e#18036#18037#0" expanded="true" />
-            <element signature="e#18062#18063#0" expanded="true" />
-            <element signature="e#18097#18098#0" expanded="true" />
-            <element signature="e#18120#18121#0" expanded="true" />
-            <element signature="e#18165#18166#0" expanded="true" />
-            <element signature="e#18196#18197#0" expanded="true" />
-            <element signature="e#18241#18242#0" expanded="true" />
-            <element signature="e#18272#18273#0" expanded="true" />
-            <element signature="e#18303#18304#0" expanded="true" />
-            <element signature="e#18321#18322#0" expanded="true" />
-            <element signature="e#18349#18350#0" expanded="true" />
-            <element signature="e#18369#18370#0" expanded="true" />
-            <element signature="e#18398#18399#0" expanded="true" />
-            <element signature="e#18419#18420#0" expanded="true" />
-            <element signature="e#18448#18449#0" expanded="true" />
-            <element signature="e#18469#18470#0" expanded="true" />
-            <element signature="e#18503#18504#0" expanded="true" />
-            <element signature="e#18528#18529#0" expanded="true" />
-            <element signature="e#18568#18569#0" expanded="true" />
-            <element signature="e#18593#18594#0" expanded="true" />
-            <element signature="e#18644#18645#0" expanded="true" />
-            <element signature="e#18674#18675#0" expanded="true" />
-            <element signature="e#18713#18714#0" expanded="true" />
-            <element signature="e#18747#18748#0" expanded="true" />
-            <element signature="e#18780#18781#0" expanded="true" />
-            <element signature="e#18803#18804#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,39 +715,29 @@
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/ResultsFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="21" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="2006">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ezchecker.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.3545861" vertical-offset="2999" max-vertical-offset="3893">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="106" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.3232662" vertical-offset="1071" max-vertical-offset="4301">
+        <state line="121" column="27" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.77964205" vertical-offset="1360" max-vertical-offset="3927">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6178#6179#0" expanded="true" />
-            <element signature="e#6207#6208#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6280#6281#0" expanded="true" />
-            <element signature="e#6331#6332#0" expanded="true" />
-            <element signature="e#6375#6376#0" expanded="true" />
-            <element signature="e#6440#6441#0" expanded="true" />
-            <element signature="e#6498#6499#0" expanded="true" />
-            <element signature="e#6529#6530#0" expanded="true" />
-            <element signature="e#6556#6557#0" expanded="true" />
-            <element signature="e#6588#6589#0" expanded="true" />
-            <element signature="e#6616#6617#0" expanded="true" />
-            <element signature="e#6649#6650#0" expanded="true" />
-            <element signature="e#6678#6679#0" expanded="true" />
-            <element signature="e#6714#6715#0" expanded="true" />
-            <element signature="e#6746#6747#0" expanded="true" />
-            <element signature="e#6776#6777#0" expanded="true" />
-            <element signature="e#6802#6803#0" expanded="true" />
-            <element signature="e#6846#6847#0" expanded="true" />
-            <element signature="e#6886#6887#0" expanded="true" />
-            <element signature="e#6922#6923#0" expanded="true" />
-            <element signature="e#6954#6955#0" expanded="true" />
           </folding>
         </state>
       </provider>
