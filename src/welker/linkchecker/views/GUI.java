@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
+import javafx.application.HostServices;
 import javafx.scene.control.*;
 import welker.linkchecker.MainApp;
 
@@ -125,6 +126,21 @@ public class GUI implements Initializable{
                 loadSettingsFromFile();
             }
         });
+
+        getHelp.setOnAction(new EventHandler<ActionEvent>(){
+            public void handle(ActionEvent arg0){
+                app.getHostServices().showDocument("https://github.com/jswelker/ezcheck/wiki");
+            }
+        });
+
+        about.setOnAction(new EventHandler<ActionEvent>(){
+            public void handle(ActionEvent arg0){
+                app.getHostServices().showDocument("https://github.com/jswelker/ezcheck/blob/master/readme.md");
+            }
+        });
+
+
+
 	}
 	
 	/*
