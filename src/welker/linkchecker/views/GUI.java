@@ -1,13 +1,10 @@
 package welker.linkchecker.views;
 
 import java.io.File;
-import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.ResourceBundle;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 import javafx.scene.control.*;
 import welker.linkchecker.MainApp;
@@ -16,15 +13,11 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 import javafx.application.Platform;
-import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.input.InputMethodEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
+import welker.linkchecker.models.SettingsFile;
 
 public class GUI implements Initializable{
 	
@@ -40,8 +33,8 @@ public class GUI implements Initializable{
 	@FXML private TextField outputFileName;
 	@FXML private ChoiceBox outputDelimiter;
 	@FXML private TextArea outputLog;
-	@FXML private TextField sierraUsername;
-	@FXML private TextField sierraPassword;
+	@FXML private TextField sqlUsername;
+	@FXML private TextField sqlPassword;
 	@FXML private TextField sqlHost;
 	@FXML private TextField sqlPort;
 	@FXML private TextField itemLocationStart;
@@ -105,21 +98,33 @@ public class GUI implements Initializable{
 		
 		outputFileBrowse.setOnAction(new EventHandler<ActionEvent>(){
 			public void handle(ActionEvent arg0){
-				openTextFileChooser(outputFileName);
+				openFileChooser(outputFileName, "Text files", "txt", true);
 			}
 		});
 		
 		textInputFileBrowse.setOnAction(new EventHandler<ActionEvent>(){
 			public void handle(ActionEvent arg0){
-				openTextFileChooser(textInputFileName);
+				openFileChooser(textInputFileName, "Text files", "txt", false);
 			}
 		});
 		
 		marcInputFileBrowse.setOnAction(new EventHandler<ActionEvent>(){
 			public void handle(ActionEvent arg0){
-				openMARCFileChooser(marcInputFileName);
+				openFileChooser(marcInputFileName, "MRC files", "mrc", false);
 			}
 		});
+
+        saveSettings.setOnAction(new EventHandler<ActionEvent>(){
+            public void handle(ActionEvent arg0){
+                saveSettingsToFile();
+            }
+        });
+
+        openSettings.setOnAction(new EventHandler<ActionEvent>(){
+            public void handle(ActionEvent arg0){
+                loadSettingsFromFile();
+            }
+        });
 	}
 	
 	/*
@@ -145,8 +150,8 @@ public class GUI implements Initializable{
 		marcInputFileBrowse.setDisable(true);
 		marcRecordsToSkip.setDisable(true);
 		
-		sierraUsername.setDisable(true);
-		sierraPassword.setDisable(true);
+		sqlUsername.setDisable(true);
+		sqlPassword.setDisable(true);
 		sqlHost.setDisable(true);
 		sqlPort.setDisable(true);
 		itemLocationStart.setDisable(true);
@@ -159,27 +164,26 @@ public class GUI implements Initializable{
 	}
 	
 	
-	/*
-	 * Select a file and change a textfield's text value to the name of the file
+	/**
+	 * Select a file for reading/writing and optionally update a textfield with the filename
 	 */
-	@FXML
-	private void openTextFileChooser(TextField field){
-		
+	private String openFileChooser(TextField field, String mimeName, String mimeType, boolean isSaving){	
+        String fileName = null;
+
 		try{
 			//create file chooser
 			FileChooser chooser = new FileChooser();
 			
 			//set extension filter
-			FileChooser.ExtensionFilter filter = new FileChooser.ExtensionFilter("Text files (*.txt)", "*.txt");
+			FileChooser.ExtensionFilter filter = new FileChooser.ExtensionFilter(mimeName + " (*."+mimeType+")", "*."+mimeType);
 			chooser.getExtensionFilters().add(filter);
 			
 			//show open/save file dialog and get the file
 			File file = null;
-			String fileName = null;
-			if(field == this.outputFileName){
+			if(isSaving){
 				file = chooser.showSaveDialog(null);
-				if(file.getPath().indexOf(".txt") == -1){
-					fileName = file.getPath() + ".txt";
+				if(file.getPath().indexOf("."+mimeType) == -1){
+					fileName = file.getPath() + "."+mimeType;
 				}else{
 					fileName = file.getPath();
 				}
@@ -189,45 +193,16 @@ public class GUI implements Initializable{
 			}
 			
 			//change the text field to display the file name and path
-			field.setText(fileName);
+			if(field != null){
+                field.setText(fileName);
+            }
 		}catch(NullPointerException e){
 			e.printStackTrace();
 		}
+
+        return fileName;
 	}
-	
-	/*
-	 * Select a MARC file and change a textfield's text value to the name of the file
-	 */
-	@FXML
-	private void openMARCFileChooser(TextField field){
-		
-		try{
-			//create file chooser
-			FileChooser chooser = new FileChooser();
-			
-			//set extension filter
-			FileChooser.ExtensionFilter filter1 = new FileChooser.ExtensionFilter("MARC files (*.mrc)", "*.mrc");
-			//FileChooser.ExtensionFilter filter2 = new FileChooser.ExtensionFilter("MARC files (*.mrk)", "*.mrk");
-			chooser.getExtensionFilters().add(filter1);
-			//chooser.getExtensionFilters().add(filter2);
-			
-			//show open/save file dialog and get the file
-			File file = null;
-			String fileName = null;
-			if(field == this.outputFileName){
-				file = chooser.showSaveDialog(null);
-				fileName = file.getPath() + ".txt";
-			}else{
-				file = chooser.showOpenDialog(null);
-				fileName = file.getPath();
-			}
-			
-			//change the text field to display the file name and path
-			field.setText(fileName);
-		}catch(NullPointerException e){
-			e.printStackTrace();
-		}
-	}
+
 	
 	/*
 	 * Write to activity log for user to view
@@ -317,8 +292,8 @@ public class GUI implements Initializable{
                 marcInputFileName.setDisable(false);
                 marcInputFileBrowse.setDisable(false);
 
-                sierraUsername.setDisable(false);
-                sierraPassword.setDisable(false);
+                sqlUsername.setDisable(false);
+                sqlPassword.setDisable(false);
                 sqlHost.setDisable(false);
                 sqlPort.setDisable(false);
                 itemLocationStart.setDisable(false);
@@ -391,7 +366,6 @@ public class GUI implements Initializable{
 	/*
 	 * Validate user input and send off for processing
 	 */
-	@FXML
 	private void processUserRequest(){
 		boolean validated = validateInput();
 		if(validated){
@@ -413,7 +387,6 @@ public class GUI implements Initializable{
 	}
 	
 	
-	@FXML
 	private boolean validateInput(){
 		//get the selected tab
 		Tab selectedTab = tabs.getSelectionModel().getSelectedItem();
@@ -425,10 +398,10 @@ public class GUI implements Initializable{
 			
 			tabName = "sql";
 			
-			if(sierraUsername.getText() == null || sierraUsername.getText().isEmpty()){
+			if(sqlUsername.getText() == null || sqlUsername.getText().isEmpty()){
 				validationErrors.add( "Sierra username must be provided." );
 			}
-			if(sierraPassword.getText() == null || sierraPassword.getText().isEmpty()){
+			if(sqlPassword.getText() == null || sqlPassword.getText().isEmpty()){
 				validationErrors.add( "Sierra password must be provided." );
 			}
 			if(sqlHost.getText() == null || sqlHost.getText().isEmpty()){
@@ -540,7 +513,76 @@ public class GUI implements Initializable{
 			return true;
 		}
 	}
-	
+
+
+    /**
+     * Create a HashMap of settings and send them to a SettingsFile object to save
+     */
+    private void saveSettingsToFile(){
+        HashMap<String, String> settings = new HashMap<String, String>();
+
+        settings.put("textInputFileName",textInputFileName.getText());
+        settings.put("textFieldDelimiter",(String)inputDelimiter.getSelectionModel().getSelectedItem());
+        settings.put("textRecordsToSkip",textRecordsToSkip.getText());
+        settings.put("textBibRecordIDColNuml",bibColNum.getText());
+        settings.put("textm856ColNum",m856ColNum.getText());
+        settings.put("textTitleColNum",titleColNum.getText());
+        settings.put("textAuthorColNum",authorColNum.getText());
+        settings.put("textDataIncludesHeaders",String.valueOf(headerRow.isSelected()));
+
+        settings.put("marcInputFileName",marcInputFileName.getText());
+        settings.put("marcRecordsToSkip",marcRecordsToSkip.getText());
+
+        settings.put("sqlUsername", sqlUsername.getText());
+        settings.put("sqlPassword", sqlPassword.getText());
+        settings.put("sqlHost",sqlHost.getText());
+        settings.put("sqlPort",sqlPort.getText());
+        settings.put("sqlLocationStart",itemLocationStart.getText());
+        settings.put("sqlLocationEnd",itemLocationEnd.getText());
+        settings.put("sqlBibRecordStart",bibRecordStart.getText());
+
+        settings.put("linksToIgnore",ignoreLinks.getText());
+        settings.put("outputFieldDelimiter",(String)outputDelimiter.getSelectionModel().getSelectedItem());
+        settings.put("outputFileName",outputFileName.getText());
+
+        String fileName = this.openFileChooser(null, "EZcheck settings file", "ezchk", true);
+        SettingsFile settingsFile = new SettingsFile(fileName);
+        settingsFile.writeSettings(settings);
+
+    }
+
+    /**
+     * Take a HashMap of settings and update the UI with the mapped values
+     */
+    private void loadSettingsFromFile(){
+        String fileName = this.openFileChooser(null, "EZcheck settings file", "ezchk", false);
+        SettingsFile settingsFile = new SettingsFile(fileName);
+        HashMap<String, String> settings = settingsFile.readSettings();
+
+        textInputFileName.setText( settings.get("textInputFileName") );
+        inputDelimiter.getSelectionModel().select( settings.get("textFieldDelimiter") );
+        textRecordsToSkip.setText( settings.get("textRecordsToSkip") );
+        bibColNum.setText( settings.get("textBibRecordIDColNum"));
+        m856ColNum.setText( settings.get("textm856ColNum") );
+        titleColNum.setText( settings.get("textTitleColNum") );
+        authorColNum.setText( settings.get("textAuthorColNum") );
+        headerRow.setSelected( Boolean.valueOf(settings.get("textDataIncludesHeaders")) );
+
+        marcInputFileName.setText( settings.get("marcInputFileName") );
+        marcRecordsToSkip.setText( settings.get("marcRecordsToSkip") );
+
+        sqlUsername.setText( settings.get("sqlUsername") );
+        sqlPassword.setText( settings.get("sqlPassword") );
+        sqlHost.setText( settings.get("sqlHost") );
+        sqlPort.setText( settings.get("sqlPort") );
+        itemLocationStart.setText( settings.get("sqlLocationStart") );
+        itemLocationEnd.setText( settings.get("sqlLocationEnd") );
+        bibRecordStart.setText( settings.get("sqlBibRecordStart") );
+
+        ignoreLinks.setText( settings.get("linksToIgnore") );
+        outputDelimiter.getSelectionModel().select( settings.get("outputFieldDelimiter") );
+        outputFileName.setText( settings.get("outputFileName") );
+    }
 	
 
 	public AnchorPane getRootLayout() {
@@ -578,13 +620,13 @@ public class GUI implements Initializable{
 	}
 
 
-	public TextField getSierraUsername() {
-		return sierraUsername;
+	public TextField getSqlUsername() {
+		return sqlUsername;
 	}
 
 
-	public TextField getSierraPassword() {
-		return sierraPassword;
+	public TextField getSqlPassword() {
+		return sqlPassword;
 	}
 
 

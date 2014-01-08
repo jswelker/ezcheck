@@ -28,8 +28,8 @@ public class SQLDataset {
 		
 		this.gui = gui;
 		
-		this.sierraUsername = gui.getSierraUsername().getText();
-		this.sierraPassword = gui.getSierraPassword().getText();
+		this.sierraUsername = gui.getSqlUsername().getText();
+		this.sierraPassword = gui.getSqlPassword().getText();
 		this.sqlHost = gui.getSqlHost().getText();
 		this.sqlPort = gui.getSqlPort().getText();
 		this.itemLocationStart = gui.getItemLocationStart().getText();

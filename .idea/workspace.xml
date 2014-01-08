@@ -64,65 +64,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GUI.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GUI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="260" column="31" selection-start="7512" selection-end="7512" vertical-scroll-proportion="0.0" vertical-offset="3507" max-vertical-offset="10285">
-              <folding />
+            <state line="535" column="8" selection-start="16668" selection-end="16668" vertical-scroll-proportion="0.47291362" vertical-offset="8313" max-vertical-offset="12376">
+              <folding>
+                <element signature="e#2755#2901#0" expanded="true" />
+                <element signature="e#2896#2897#0" expanded="true" />
+                <element signature="e#2941#3091#0" expanded="true" />
+                <element signature="e#3086#3087#0" expanded="true" />
+                <element signature="e#3131#3280#0" expanded="true" />
+                <element signature="e#3275#3276#0" expanded="true" />
+                <element signature="e#3317#3461#0" expanded="true" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#15903#15919#0" expanded="true" />
+                <element signature="e#19323#19324#0" expanded="true" />
+                <element signature="e#19347#19348#0" expanded="true" />
+                <element signature="e#19377#19378#0" expanded="true" />
+                <element signature="e#19396#19397#0" expanded="true" />
+                <element signature="e#19425#19426#0" expanded="true" />
+                <element signature="e#19443#19444#0" expanded="true" />
+                <element signature="e#19484#19485#0" expanded="true" />
+                <element signature="e#19514#19515#0" expanded="true" />
+                <element signature="e#19556#19557#0" expanded="true" />
+                <element signature="e#19584#19585#0" expanded="true" />
+                <element signature="e#19627#19628#0" expanded="true" />
+                <element signature="e#19656#19657#0" expanded="true" />
+                <element signature="e#19692#19693#0" expanded="true" />
+                <element signature="e#19715#19716#0" expanded="true" />
+                <element signature="e#19754#19755#0" expanded="true" />
+                <element signature="e#19779#19780#0" expanded="true" />
+                <element signature="e#19818#19819#0" expanded="true" />
+                <element signature="e#19843#19844#0" expanded="true" />
+                <element signature="e#19878#19879#0" expanded="true" />
+                <element signature="e#19899#19900#0" expanded="true" />
+                <element signature="e#19934#19935#0" expanded="true" />
+                <element signature="e#19955#19956#0" expanded="true" />
+                <element signature="e#20000#20001#0" expanded="true" />
+                <element signature="e#20031#20032#0" expanded="true" />
+                <element signature="e#20074#20075#0" expanded="true" />
+                <element signature="e#20103#20104#0" expanded="true" />
+                <element signature="e#20145#20146#0" expanded="true" />
+                <element signature="e#20173#20174#0" expanded="true" />
+                <element signature="e#20218#20219#0" expanded="true" />
+                <element signature="e#20249#20250#0" expanded="true" />
+                <element signature="e#20294#20295#0" expanded="true" />
+                <element signature="e#20325#20326#0" expanded="true" />
+                <element signature="e#20367#20368#0" expanded="true" />
+                <element signature="e#20395#20396#0" expanded="true" />
+                <element signature="e#20432#20433#0" expanded="true" />
+                <element signature="e#20455#20456#0" expanded="true" />
+                <element signature="e#20493#20494#0" expanded="true" />
+                <element signature="e#20517#20518#0" expanded="true" />
+                <element signature="e#20556#20557#0" expanded="true" />
+                <element signature="e#20581#20582#0" expanded="true" />
+                <element signature="e#20621#20622#0" expanded="true" />
+                <element signature="e#20647#20648#0" expanded="true" />
+                <element signature="e#20682#20683#0" expanded="true" />
+                <element signature="e#20705#20706#0" expanded="true" />
+                <element signature="e#20750#20751#0" expanded="true" />
+                <element signature="e#20781#20782#0" expanded="true" />
+                <element signature="e#20826#20827#0" expanded="true" />
+                <element signature="e#20857#20858#0" expanded="true" />
+                <element signature="e#20888#20889#0" expanded="true" />
+                <element signature="e#20906#20907#0" expanded="true" />
+                <element signature="e#20934#20935#0" expanded="true" />
+                <element signature="e#20954#20955#0" expanded="true" />
+                <element signature="e#20983#20984#0" expanded="true" />
+                <element signature="e#21004#21005#0" expanded="true" />
+                <element signature="e#21033#21034#0" expanded="true" />
+                <element signature="e#21054#21055#0" expanded="true" />
+                <element signature="e#21088#21089#0" expanded="true" />
+                <element signature="e#21113#21114#0" expanded="true" />
+                <element signature="e#21153#21154#0" expanded="true" />
+                <element signature="e#21178#21179#0" expanded="true" />
+                <element signature="e#21229#21230#0" expanded="true" />
+                <element signature="e#21259#21260#0" expanded="true" />
+                <element signature="e#21298#21299#0" expanded="true" />
+                <element signature="e#21332#21333#0" expanded="true" />
+                <element signature="e#21365#21366#0" expanded="true" />
+                <element signature="e#21388#21389#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenu.fxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml">
+      <file leaf-file-name="SettingsFile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/SettingsFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="5321">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Operations.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4998">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/MainApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="22" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MARCDataset.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="73" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.6655481" vertical-offset="0" max-vertical-offset="2142">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Link.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="19" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultsFile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="12" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
-              <folding />
+            <state line="61" column="120" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1377">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#497#513#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,11 +184,12 @@
         <option value="$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java" />
         <option value="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/webapps.demo/ROOT/index.html" />
         <option value="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/license-eplv10-aslv20.html" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java" />
+        <option value="$PROJECT_DIR$/src/welker/linkchecker/models/SettingsFile.java" />
+        <option value="$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java" />
       </list>
     </option>
   </component>
@@ -336,15 +371,15 @@
     <configuration default="false" name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="welker.linkchecker.MainApp" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ezchecker" />
+      <module name="ezcheck" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -553,7 +588,7 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -567,21 +602,21 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18511905" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13214286" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206522" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22934783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22934783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -638,7 +673,83 @@
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="417" column="41" selection-start="12242" selection-end="12242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12240">
-          <folding />
+          <folding>
+            <element signature="e#2755#2901#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#2941#3091#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3131#3280#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3317#3461#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#15903#15919#0" expanded="true" />
+            <element signature="e#19323#19324#0" expanded="true" />
+            <element signature="e#19347#19348#0" expanded="true" />
+            <element signature="e#19377#19378#0" expanded="true" />
+            <element signature="e#19396#19397#0" expanded="true" />
+            <element signature="e#19425#19426#0" expanded="true" />
+            <element signature="e#19443#19444#0" expanded="true" />
+            <element signature="e#19484#19485#0" expanded="true" />
+            <element signature="e#19514#19515#0" expanded="true" />
+            <element signature="e#19556#19557#0" expanded="true" />
+            <element signature="e#19584#19585#0" expanded="true" />
+            <element signature="e#19627#19628#0" expanded="true" />
+            <element signature="e#19656#19657#0" expanded="true" />
+            <element signature="e#19692#19693#0" expanded="true" />
+            <element signature="e#19715#19716#0" expanded="true" />
+            <element signature="e#19754#19755#0" expanded="true" />
+            <element signature="e#19779#19780#0" expanded="true" />
+            <element signature="e#19818#19819#0" expanded="true" />
+            <element signature="e#19843#19844#0" expanded="true" />
+            <element signature="e#19878#19879#0" expanded="true" />
+            <element signature="e#19899#19900#0" expanded="true" />
+            <element signature="e#19934#19935#0" expanded="true" />
+            <element signature="e#19955#19956#0" expanded="true" />
+            <element signature="e#20000#20001#0" expanded="true" />
+            <element signature="e#20031#20032#0" expanded="true" />
+            <element signature="e#20074#20075#0" expanded="true" />
+            <element signature="e#20103#20104#0" expanded="true" />
+            <element signature="e#20145#20146#0" expanded="true" />
+            <element signature="e#20173#20174#0" expanded="true" />
+            <element signature="e#20218#20219#0" expanded="true" />
+            <element signature="e#20249#20250#0" expanded="true" />
+            <element signature="e#20294#20295#0" expanded="true" />
+            <element signature="e#20325#20326#0" expanded="true" />
+            <element signature="e#20367#20368#0" expanded="true" />
+            <element signature="e#20395#20396#0" expanded="true" />
+            <element signature="e#20432#20433#0" expanded="true" />
+            <element signature="e#20455#20456#0" expanded="true" />
+            <element signature="e#20493#20494#0" expanded="true" />
+            <element signature="e#20517#20518#0" expanded="true" />
+            <element signature="e#20556#20557#0" expanded="true" />
+            <element signature="e#20581#20582#0" expanded="true" />
+            <element signature="e#20621#20622#0" expanded="true" />
+            <element signature="e#20647#20648#0" expanded="true" />
+            <element signature="e#20682#20683#0" expanded="true" />
+            <element signature="e#20705#20706#0" expanded="true" />
+            <element signature="e#20750#20751#0" expanded="true" />
+            <element signature="e#20781#20782#0" expanded="true" />
+            <element signature="e#20826#20827#0" expanded="true" />
+            <element signature="e#20857#20858#0" expanded="true" />
+            <element signature="e#20888#20889#0" expanded="true" />
+            <element signature="e#20906#20907#0" expanded="true" />
+            <element signature="e#20934#20935#0" expanded="true" />
+            <element signature="e#20954#20955#0" expanded="true" />
+            <element signature="e#20983#20984#0" expanded="true" />
+            <element signature="e#21004#21005#0" expanded="true" />
+            <element signature="e#21033#21034#0" expanded="true" />
+            <element signature="e#21054#21055#0" expanded="true" />
+            <element signature="e#21088#21089#0" expanded="true" />
+            <element signature="e#21113#21114#0" expanded="true" />
+            <element signature="e#21153#21154#0" expanded="true" />
+            <element signature="e#21178#21179#0" expanded="true" />
+            <element signature="e#21229#21230#0" expanded="true" />
+            <element signature="e#21259#21260#0" expanded="true" />
+            <element signature="e#21298#21299#0" expanded="true" />
+            <element signature="e#21332#21333#0" expanded="true" />
+            <element signature="e#21365#21366#0" expanded="true" />
+            <element signature="e#21388#21389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,7 +777,83 @@
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="417" column="41" selection-start="12242" selection-end="12242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12240">
-          <folding />
+          <folding>
+            <element signature="e#2755#2901#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#2941#3091#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3131#3280#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3317#3461#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#15903#15919#0" expanded="true" />
+            <element signature="e#19323#19324#0" expanded="true" />
+            <element signature="e#19347#19348#0" expanded="true" />
+            <element signature="e#19377#19378#0" expanded="true" />
+            <element signature="e#19396#19397#0" expanded="true" />
+            <element signature="e#19425#19426#0" expanded="true" />
+            <element signature="e#19443#19444#0" expanded="true" />
+            <element signature="e#19484#19485#0" expanded="true" />
+            <element signature="e#19514#19515#0" expanded="true" />
+            <element signature="e#19556#19557#0" expanded="true" />
+            <element signature="e#19584#19585#0" expanded="true" />
+            <element signature="e#19627#19628#0" expanded="true" />
+            <element signature="e#19656#19657#0" expanded="true" />
+            <element signature="e#19692#19693#0" expanded="true" />
+            <element signature="e#19715#19716#0" expanded="true" />
+            <element signature="e#19754#19755#0" expanded="true" />
+            <element signature="e#19779#19780#0" expanded="true" />
+            <element signature="e#19818#19819#0" expanded="true" />
+            <element signature="e#19843#19844#0" expanded="true" />
+            <element signature="e#19878#19879#0" expanded="true" />
+            <element signature="e#19899#19900#0" expanded="true" />
+            <element signature="e#19934#19935#0" expanded="true" />
+            <element signature="e#19955#19956#0" expanded="true" />
+            <element signature="e#20000#20001#0" expanded="true" />
+            <element signature="e#20031#20032#0" expanded="true" />
+            <element signature="e#20074#20075#0" expanded="true" />
+            <element signature="e#20103#20104#0" expanded="true" />
+            <element signature="e#20145#20146#0" expanded="true" />
+            <element signature="e#20173#20174#0" expanded="true" />
+            <element signature="e#20218#20219#0" expanded="true" />
+            <element signature="e#20249#20250#0" expanded="true" />
+            <element signature="e#20294#20295#0" expanded="true" />
+            <element signature="e#20325#20326#0" expanded="true" />
+            <element signature="e#20367#20368#0" expanded="true" />
+            <element signature="e#20395#20396#0" expanded="true" />
+            <element signature="e#20432#20433#0" expanded="true" />
+            <element signature="e#20455#20456#0" expanded="true" />
+            <element signature="e#20493#20494#0" expanded="true" />
+            <element signature="e#20517#20518#0" expanded="true" />
+            <element signature="e#20556#20557#0" expanded="true" />
+            <element signature="e#20581#20582#0" expanded="true" />
+            <element signature="e#20621#20622#0" expanded="true" />
+            <element signature="e#20647#20648#0" expanded="true" />
+            <element signature="e#20682#20683#0" expanded="true" />
+            <element signature="e#20705#20706#0" expanded="true" />
+            <element signature="e#20750#20751#0" expanded="true" />
+            <element signature="e#20781#20782#0" expanded="true" />
+            <element signature="e#20826#20827#0" expanded="true" />
+            <element signature="e#20857#20858#0" expanded="true" />
+            <element signature="e#20888#20889#0" expanded="true" />
+            <element signature="e#20906#20907#0" expanded="true" />
+            <element signature="e#20934#20935#0" expanded="true" />
+            <element signature="e#20954#20955#0" expanded="true" />
+            <element signature="e#20983#20984#0" expanded="true" />
+            <element signature="e#21004#21005#0" expanded="true" />
+            <element signature="e#21033#21034#0" expanded="true" />
+            <element signature="e#21054#21055#0" expanded="true" />
+            <element signature="e#21088#21089#0" expanded="true" />
+            <element signature="e#21113#21114#0" expanded="true" />
+            <element signature="e#21153#21154#0" expanded="true" />
+            <element signature="e#21178#21179#0" expanded="true" />
+            <element signature="e#21229#21230#0" expanded="true" />
+            <element signature="e#21259#21260#0" expanded="true" />
+            <element signature="e#21298#21299#0" expanded="true" />
+            <element signature="e#21332#21333#0" expanded="true" />
+            <element signature="e#21365#21366#0" expanded="true" />
+            <element signature="e#21388#21389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -694,7 +881,83 @@
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12240">
-          <folding />
+          <folding>
+            <element signature="e#2755#2901#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#2941#3091#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3131#3280#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3317#3461#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#15903#15919#0" expanded="true" />
+            <element signature="e#19323#19324#0" expanded="true" />
+            <element signature="e#19347#19348#0" expanded="true" />
+            <element signature="e#19377#19378#0" expanded="true" />
+            <element signature="e#19396#19397#0" expanded="true" />
+            <element signature="e#19425#19426#0" expanded="true" />
+            <element signature="e#19443#19444#0" expanded="true" />
+            <element signature="e#19484#19485#0" expanded="true" />
+            <element signature="e#19514#19515#0" expanded="true" />
+            <element signature="e#19556#19557#0" expanded="true" />
+            <element signature="e#19584#19585#0" expanded="true" />
+            <element signature="e#19627#19628#0" expanded="true" />
+            <element signature="e#19656#19657#0" expanded="true" />
+            <element signature="e#19692#19693#0" expanded="true" />
+            <element signature="e#19715#19716#0" expanded="true" />
+            <element signature="e#19754#19755#0" expanded="true" />
+            <element signature="e#19779#19780#0" expanded="true" />
+            <element signature="e#19818#19819#0" expanded="true" />
+            <element signature="e#19843#19844#0" expanded="true" />
+            <element signature="e#19878#19879#0" expanded="true" />
+            <element signature="e#19899#19900#0" expanded="true" />
+            <element signature="e#19934#19935#0" expanded="true" />
+            <element signature="e#19955#19956#0" expanded="true" />
+            <element signature="e#20000#20001#0" expanded="true" />
+            <element signature="e#20031#20032#0" expanded="true" />
+            <element signature="e#20074#20075#0" expanded="true" />
+            <element signature="e#20103#20104#0" expanded="true" />
+            <element signature="e#20145#20146#0" expanded="true" />
+            <element signature="e#20173#20174#0" expanded="true" />
+            <element signature="e#20218#20219#0" expanded="true" />
+            <element signature="e#20249#20250#0" expanded="true" />
+            <element signature="e#20294#20295#0" expanded="true" />
+            <element signature="e#20325#20326#0" expanded="true" />
+            <element signature="e#20367#20368#0" expanded="true" />
+            <element signature="e#20395#20396#0" expanded="true" />
+            <element signature="e#20432#20433#0" expanded="true" />
+            <element signature="e#20455#20456#0" expanded="true" />
+            <element signature="e#20493#20494#0" expanded="true" />
+            <element signature="e#20517#20518#0" expanded="true" />
+            <element signature="e#20556#20557#0" expanded="true" />
+            <element signature="e#20581#20582#0" expanded="true" />
+            <element signature="e#20621#20622#0" expanded="true" />
+            <element signature="e#20647#20648#0" expanded="true" />
+            <element signature="e#20682#20683#0" expanded="true" />
+            <element signature="e#20705#20706#0" expanded="true" />
+            <element signature="e#20750#20751#0" expanded="true" />
+            <element signature="e#20781#20782#0" expanded="true" />
+            <element signature="e#20826#20827#0" expanded="true" />
+            <element signature="e#20857#20858#0" expanded="true" />
+            <element signature="e#20888#20889#0" expanded="true" />
+            <element signature="e#20906#20907#0" expanded="true" />
+            <element signature="e#20934#20935#0" expanded="true" />
+            <element signature="e#20954#20955#0" expanded="true" />
+            <element signature="e#20983#20984#0" expanded="true" />
+            <element signature="e#21004#21005#0" expanded="true" />
+            <element signature="e#21033#21034#0" expanded="true" />
+            <element signature="e#21054#21055#0" expanded="true" />
+            <element signature="e#21088#21089#0" expanded="true" />
+            <element signature="e#21113#21114#0" expanded="true" />
+            <element signature="e#21153#21154#0" expanded="true" />
+            <element signature="e#21178#21179#0" expanded="true" />
+            <element signature="e#21229#21230#0" expanded="true" />
+            <element signature="e#21259#21260#0" expanded="true" />
+            <element signature="e#21298#21299#0" expanded="true" />
+            <element signature="e#21332#21333#0" expanded="true" />
+            <element signature="e#21365#21366#0" expanded="true" />
+            <element signature="e#21388#21389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -722,7 +985,83 @@
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="221" column="17" selection-start="6290" selection-end="6290" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12240">
-          <folding />
+          <folding>
+            <element signature="e#2755#2901#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#2941#3091#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3131#3280#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3317#3461#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#15903#15919#0" expanded="true" />
+            <element signature="e#19323#19324#0" expanded="true" />
+            <element signature="e#19347#19348#0" expanded="true" />
+            <element signature="e#19377#19378#0" expanded="true" />
+            <element signature="e#19396#19397#0" expanded="true" />
+            <element signature="e#19425#19426#0" expanded="true" />
+            <element signature="e#19443#19444#0" expanded="true" />
+            <element signature="e#19484#19485#0" expanded="true" />
+            <element signature="e#19514#19515#0" expanded="true" />
+            <element signature="e#19556#19557#0" expanded="true" />
+            <element signature="e#19584#19585#0" expanded="true" />
+            <element signature="e#19627#19628#0" expanded="true" />
+            <element signature="e#19656#19657#0" expanded="true" />
+            <element signature="e#19692#19693#0" expanded="true" />
+            <element signature="e#19715#19716#0" expanded="true" />
+            <element signature="e#19754#19755#0" expanded="true" />
+            <element signature="e#19779#19780#0" expanded="true" />
+            <element signature="e#19818#19819#0" expanded="true" />
+            <element signature="e#19843#19844#0" expanded="true" />
+            <element signature="e#19878#19879#0" expanded="true" />
+            <element signature="e#19899#19900#0" expanded="true" />
+            <element signature="e#19934#19935#0" expanded="true" />
+            <element signature="e#19955#19956#0" expanded="true" />
+            <element signature="e#20000#20001#0" expanded="true" />
+            <element signature="e#20031#20032#0" expanded="true" />
+            <element signature="e#20074#20075#0" expanded="true" />
+            <element signature="e#20103#20104#0" expanded="true" />
+            <element signature="e#20145#20146#0" expanded="true" />
+            <element signature="e#20173#20174#0" expanded="true" />
+            <element signature="e#20218#20219#0" expanded="true" />
+            <element signature="e#20249#20250#0" expanded="true" />
+            <element signature="e#20294#20295#0" expanded="true" />
+            <element signature="e#20325#20326#0" expanded="true" />
+            <element signature="e#20367#20368#0" expanded="true" />
+            <element signature="e#20395#20396#0" expanded="true" />
+            <element signature="e#20432#20433#0" expanded="true" />
+            <element signature="e#20455#20456#0" expanded="true" />
+            <element signature="e#20493#20494#0" expanded="true" />
+            <element signature="e#20517#20518#0" expanded="true" />
+            <element signature="e#20556#20557#0" expanded="true" />
+            <element signature="e#20581#20582#0" expanded="true" />
+            <element signature="e#20621#20622#0" expanded="true" />
+            <element signature="e#20647#20648#0" expanded="true" />
+            <element signature="e#20682#20683#0" expanded="true" />
+            <element signature="e#20705#20706#0" expanded="true" />
+            <element signature="e#20750#20751#0" expanded="true" />
+            <element signature="e#20781#20782#0" expanded="true" />
+            <element signature="e#20826#20827#0" expanded="true" />
+            <element signature="e#20857#20858#0" expanded="true" />
+            <element signature="e#20888#20889#0" expanded="true" />
+            <element signature="e#20906#20907#0" expanded="true" />
+            <element signature="e#20934#20935#0" expanded="true" />
+            <element signature="e#20954#20955#0" expanded="true" />
+            <element signature="e#20983#20984#0" expanded="true" />
+            <element signature="e#21004#21005#0" expanded="true" />
+            <element signature="e#21033#21034#0" expanded="true" />
+            <element signature="e#21054#21055#0" expanded="true" />
+            <element signature="e#21088#21089#0" expanded="true" />
+            <element signature="e#21113#21114#0" expanded="true" />
+            <element signature="e#21153#21154#0" expanded="true" />
+            <element signature="e#21178#21179#0" expanded="true" />
+            <element signature="e#21229#21230#0" expanded="true" />
+            <element signature="e#21259#21260#0" expanded="true" />
+            <element signature="e#21298#21299#0" expanded="true" />
+            <element signature="e#21332#21333#0" expanded="true" />
+            <element signature="e#21365#21366#0" expanded="true" />
+            <element signature="e#21388#21389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,11 +1156,6 @@
         <state line="129" column="14" selection-start="3886" selection-end="3886" vertical-scroll-proportion="2.167164" vertical-offset="741" max-vertical-offset="2992" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/com/sun/glass/ui/win/WinApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.3322091" vertical-offset="262" max-vertical-offset="1513" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ezcheck.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="894" />
@@ -844,23 +1178,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="19" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4998">
           <folding />
         </state>
       </provider>
@@ -892,17 +1212,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="31" selection-start="7512" selection-end="7512" vertical-scroll-proportion="0.0" vertical-offset="3507" max-vertical-offset="10285">
+        <state line="45" column="73" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java">
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="73" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.6655481" vertical-offset="0" max-vertical-offset="2142">
+        <state line="12" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4998">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="11" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.6006711" vertical-offset="262" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="63" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.5246085" vertical-offset="500" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/SettingsFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="120" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1377">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/com/sun/glass/ui/win/WinApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.33283582" vertical-offset="236" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="535" column="8" selection-start="16668" selection-end="16668" vertical-scroll-proportion="0.47291362" vertical-offset="8313" max-vertical-offset="12376">
+          <folding>
+            <element signature="e#2755#2901#0" expanded="true" />
+            <element signature="e#2896#2897#0" expanded="true" />
+            <element signature="e#2941#3091#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3131#3280#0" expanded="true" />
+            <element signature="e#3275#3276#0" expanded="true" />
+            <element signature="e#3317#3461#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#15903#15919#0" expanded="true" />
+            <element signature="e#19323#19324#0" expanded="true" />
+            <element signature="e#19347#19348#0" expanded="true" />
+            <element signature="e#19377#19378#0" expanded="true" />
+            <element signature="e#19396#19397#0" expanded="true" />
+            <element signature="e#19425#19426#0" expanded="true" />
+            <element signature="e#19443#19444#0" expanded="true" />
+            <element signature="e#19484#19485#0" expanded="true" />
+            <element signature="e#19514#19515#0" expanded="true" />
+            <element signature="e#19556#19557#0" expanded="true" />
+            <element signature="e#19584#19585#0" expanded="true" />
+            <element signature="e#19627#19628#0" expanded="true" />
+            <element signature="e#19656#19657#0" expanded="true" />
+            <element signature="e#19692#19693#0" expanded="true" />
+            <element signature="e#19715#19716#0" expanded="true" />
+            <element signature="e#19754#19755#0" expanded="true" />
+            <element signature="e#19779#19780#0" expanded="true" />
+            <element signature="e#19818#19819#0" expanded="true" />
+            <element signature="e#19843#19844#0" expanded="true" />
+            <element signature="e#19878#19879#0" expanded="true" />
+            <element signature="e#19899#19900#0" expanded="true" />
+            <element signature="e#19934#19935#0" expanded="true" />
+            <element signature="e#19955#19956#0" expanded="true" />
+            <element signature="e#20000#20001#0" expanded="true" />
+            <element signature="e#20031#20032#0" expanded="true" />
+            <element signature="e#20074#20075#0" expanded="true" />
+            <element signature="e#20103#20104#0" expanded="true" />
+            <element signature="e#20145#20146#0" expanded="true" />
+            <element signature="e#20173#20174#0" expanded="true" />
+            <element signature="e#20218#20219#0" expanded="true" />
+            <element signature="e#20249#20250#0" expanded="true" />
+            <element signature="e#20294#20295#0" expanded="true" />
+            <element signature="e#20325#20326#0" expanded="true" />
+            <element signature="e#20367#20368#0" expanded="true" />
+            <element signature="e#20395#20396#0" expanded="true" />
+            <element signature="e#20432#20433#0" expanded="true" />
+            <element signature="e#20455#20456#0" expanded="true" />
+            <element signature="e#20493#20494#0" expanded="true" />
+            <element signature="e#20517#20518#0" expanded="true" />
+            <element signature="e#20556#20557#0" expanded="true" />
+            <element signature="e#20581#20582#0" expanded="true" />
+            <element signature="e#20621#20622#0" expanded="true" />
+            <element signature="e#20647#20648#0" expanded="true" />
+            <element signature="e#20682#20683#0" expanded="true" />
+            <element signature="e#20705#20706#0" expanded="true" />
+            <element signature="e#20750#20751#0" expanded="true" />
+            <element signature="e#20781#20782#0" expanded="true" />
+            <element signature="e#20826#20827#0" expanded="true" />
+            <element signature="e#20857#20858#0" expanded="true" />
+            <element signature="e#20888#20889#0" expanded="true" />
+            <element signature="e#20906#20907#0" expanded="true" />
+            <element signature="e#20934#20935#0" expanded="true" />
+            <element signature="e#20954#20955#0" expanded="true" />
+            <element signature="e#20983#20984#0" expanded="true" />
+            <element signature="e#21004#21005#0" expanded="true" />
+            <element signature="e#21033#21034#0" expanded="true" />
+            <element signature="e#21054#21055#0" expanded="true" />
+            <element signature="e#21088#21089#0" expanded="true" />
+            <element signature="e#21113#21114#0" expanded="true" />
+            <element signature="e#21153#21154#0" expanded="true" />
+            <element signature="e#21178#21179#0" expanded="true" />
+            <element signature="e#21229#21230#0" expanded="true" />
+            <element signature="e#21259#21260#0" expanded="true" />
+            <element signature="e#21298#21299#0" expanded="true" />
+            <element signature="e#21332#21333#0" expanded="true" />
+            <element signature="e#21365#21366#0" expanded="true" />
+            <element signature="e#21388#21389#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,7 +1394,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ezchecker</last-edited>
+          <last-edited>ezcheck</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
