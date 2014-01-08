@@ -191,7 +191,7 @@ public class Link {
 
 
     public void writeToActivityLog(){
-        if(isError){
+        if(!isError){
             gui.writeToActivityLog("Request succeeded for "+ url +". Status code "+statusCode+": "+statusDescription);
         }else{
             gui.writeToActivityLog("Request failed for "+url+".");
