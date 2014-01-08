@@ -1,3 +1,7 @@
+#root{
+    -fx-background-color: #fafafa;
+}
+
 .tab-sub-pane{
 	-fx-border-color: #cccccc;
 	-fx-border-width: 0px 1px 1px 1px;
@@ -19,3 +23,13 @@
 	-fx-border-width: 0.0px 1px 1px 1px;
 }
 
+.menu-bar
+{
+    -fx-background-color: #eaeaea;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: #cccccc;
+}
+
+.menu .label{
+    -fx-text-fill: #222222;
+}

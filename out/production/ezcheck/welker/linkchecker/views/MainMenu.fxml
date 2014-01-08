@@ -276,7 +276,7 @@
         </AnchorPane>
       </content>
     </TitledPane>
-    <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="850.0">
+    <MenuBar layoutY="0.0" prefWidth="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
       <menus>
         <Menu mnemonicParsing="false" text="File">
           <items>
@@ -294,7 +294,7 @@
         </Menu>
         <Menu mnemonicParsing="false" text="Help">
           <items>
-            <MenuItem mnemonicParsing="false" text="Get Help" fx:id="getHelp" />
+            <MenuItem mnemonicParsing="false" text="View Documentation" fx:id="getHelp" />
             <MenuItem mnemonicParsing="false" text="About" fx:id="about" />
           </items>
         </Menu>
