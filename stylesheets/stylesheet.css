@@ -421,3 +421,17 @@ Small Device Styles
   }
 
 }
+
+/* Custom styles */
+
+#logo-img{
+	margin-left: 20px;
+	border: none;
+	display: block;
+	float: left;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	height: 50px;
+}
+
+

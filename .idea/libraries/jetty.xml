@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="jetty">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-http-9.0.5.v20130815.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-client-9.0.5.v20130815.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-util-9.0.5.v20130815.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-io-9.0.5.v20130815.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-proxy-9.0.5.v20130815.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-rewrite-9.0.5.v20130815.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-security-9.0.5.v20130815.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
