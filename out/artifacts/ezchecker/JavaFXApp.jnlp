@@ -11,7 +11,7 @@
   </resources>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="JavaFXApp.jar" size="1905482" download="eager" />
+    <jar href="JavaFXApp.jar" size="1905492" download="eager" />
   </resources>
   <applet-desc  width="600" height="400" main-class="com.javafx.main.NoJavaFXFallback"  name="ezchecker" >
     <param name="requiredFXVersion" value="2.2+"/>
