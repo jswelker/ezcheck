@@ -13,7 +13,7 @@
     </properties>
     <root id="root">
       <element id="archive" name="JavaFXApp.jar">
-        <element id="module-output" name="ezchecker" />
+        <element id="module-output" name="ezcheck" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-client-9.0.5.v20130815.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-http-9.0.5.v20130815.jar" path-in-jar="/" />
         <element id="extracted-dir" path="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/lib/jetty-io-9.0.5.v20130815.jar" path-in-jar="/" />
