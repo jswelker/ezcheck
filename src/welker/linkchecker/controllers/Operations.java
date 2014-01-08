@@ -207,7 +207,7 @@ public class Operations {
                     //write output to file
                     if(isProcessing){
                         link.writeToActivityLog();
-                        file.queueResultsToWrite(link);
+                        file.writeResults(link);
                     }
 
 
@@ -237,7 +237,7 @@ public class Operations {
         executor.shutdown(); //does not terminate threads but just closes the pool and sets it to expire when empty
 
         //create a loop to wait for either the links to all be finished or for a stop command to be issued
-        while(gui.getIsStopped() == false && (finished + skipped) < links.size()){
+        while(!gui.getIsStopped() && (finished + skipped) < links.size()){
             try {
                 currentOperation.sleep(1000);
             } catch (InterruptedException e) {
@@ -260,7 +260,7 @@ public class Operations {
 		//display the results message
         System.out.println("Finished.");
 		String resultsMessage = null;
-		if(gui.getIsStopped() == true){
+		if(gui.getIsStopped()){
 			gui.writeToStatusLabel("Stopped");
 			resultsMessage = "***********************************************************\r\n"+
 							"Stopped by user.\r\n"+

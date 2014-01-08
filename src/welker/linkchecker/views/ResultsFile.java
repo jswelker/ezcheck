@@ -18,47 +18,21 @@ import java.util.concurrent.TimeUnit;
  */
 public class ResultsFile {
 
-    GUI gui;
-    String delimiter;
-    ExecutorService executor;
+    private GUI gui;
+    private String delimiter;
 
     public ResultsFile(GUI gui, String delimiter){
         this.gui = gui;
         this.delimiter = delimiter;
 
-        //create a new thread pool with 1 simultaneous thread
-        executor = Executors.newFixedThreadPool(1);
     }
 
-    public void queueResultsToWrite(Link link){
-        //define a new class that extends Task to include i and errors properties
-        class ThreadedTask implements Callable<String> {
-            private Link link;
-            public ThreadedTask(Link link){
-                this.link = link;
-            }
-
-            @Override
-            public String call() throws Exception {
-                //write the results to file
-                writeResults(link);
-                return null;
-            }
-        }
-
-        if(!link.getIsIgnored()){
-            //create the thread and queue it up to be executed
-            ThreadedTask thread = new ThreadedTask(link);
-            executor.submit(thread);
-        }
-
-    }
 
     /*
 	 * Writes data about a record to a text file.
 	 * If the text file already exists, it appends text rather than overwriting.
 	 */
-    private void writeResults(Link link){
+    public synchronized void writeResults(Link link){
         //update the status code and description if the link checker timed out
         if(link.getIsTimeout()){
             link.setStatusCode(Link.GENERIC_ERROR);

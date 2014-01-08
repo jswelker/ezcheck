@@ -163,7 +163,7 @@ public class GUI implements Initializable{
 	 * Select a file and change a textfield's text value to the name of the file
 	 */
 	@FXML
-	public void openTextFileChooser(TextField field){
+	private void openTextFileChooser(TextField field){
 		
 		try{
 			//create file chooser
@@ -199,7 +199,7 @@ public class GUI implements Initializable{
 	 * Select a MARC file and change a textfield's text value to the name of the file
 	 */
 	@FXML
-	public void openMARCFileChooser(TextField field){
+	private void openMARCFileChooser(TextField field){
 		
 		try{
 			//create file chooser
@@ -392,7 +392,7 @@ public class GUI implements Initializable{
 	 * Validate user input and send off for processing
 	 */
 	@FXML
-	public void processUserRequest(){
+	private void processUserRequest(){
 		boolean validated = validateInput();
 		if(validated){
 			//show the Working Indicator

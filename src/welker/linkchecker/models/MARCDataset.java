@@ -112,7 +112,7 @@ public class MARCDataset {
 	 
 	 
 	 private static String getStringBufferFromFileUTF(File file) throws FileNotFoundException,IOException {
-         String sb = new String();
+         String sb = null;
          FileInputStream fis = new FileInputStream(file);
          int n;
          while ((n = fis.available()) > 0) {

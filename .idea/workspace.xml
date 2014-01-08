@@ -64,10 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GUI.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="GUI.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.87472034" vertical-offset="85" max-vertical-offset="10285">
+            <state line="260" column="31" selection-start="7512" selection-end="7512" vertical-scroll-proportion="0.0" vertical-offset="3507" max-vertical-offset="10285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMenu.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="18" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="5321">
               <folding />
             </state>
           </provider>
@@ -76,7 +85,25 @@
       <file leaf-file-name="Operations.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="8" selection-start="7991" selection-end="7991" vertical-scroll-proportion="0.0" vertical-offset="4104" max-vertical-offset="4998">
+            <state line="12" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4998">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/MainApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="22" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="986">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MARCDataset.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="73" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.6655481" vertical-offset="0" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -85,7 +112,7 @@
       <file leaf-file-name="Link.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="27" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="4301">
+            <state line="32" column="19" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
@@ -94,7 +121,7 @@
       <file leaf-file-name="ResultsFile.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="21" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2023">
+            <state line="21" column="12" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -115,15 +142,19 @@
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/controllers/SQLFetcher.java" />
         <option value="$PROJECT_DIR$/../../projects/github projects/LibraryH3lp-Transfer-Bot/src/welker/transferbot/Chat.java" />
-        <option value="$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/models/SQLDataset.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/models/TextFileDataset.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/models/ResultsFile.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/models/Link.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml" />
+        <option value="$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java" />
+        <option value="$PROJECT_DIR$/src/welker/linkchecker/MainApp.java" />
         <option value="$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java" />
+        <option value="$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java" />
+        <option value="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/webapps.demo/ROOT/index.html" />
+        <option value="$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/license-eplv10-aslv20.html" />
+        <option value="$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java" />
       </list>
     </option>
   </component>
@@ -217,6 +248,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ezcheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ezcheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linkchecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ezcheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ezcheck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="linkchecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,6 +561,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -497,6 +573,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18511905" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206522" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22934783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -504,10 +581,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32717392" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -742,11 +817,6 @@
         <state line="129" column="14" selection-start="3886" selection-end="3886" vertical-scroll-proportion="2.167164" vertical-offset="741" max-vertical-offset="2992" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="14" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.35871157" vertical-offset="1319" max-vertical-offset="2142" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/com/sun/glass/ui/win/WinApplication.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="949" selection-end="949" vertical-scroll-proportion="0.3322091" vertical-offset="262" max-vertical-offset="1513" />
@@ -767,37 +837,71 @@
         <state line="222" column="9" selection-start="2709" selection-end="2709" vertical-scroll-proportion="1.3422819" vertical-offset="2574" max-vertical-offset="3876" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/ResultsFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="1180" selection-end="1180" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1853">
+        <state line="21" column="12" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="27" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="3927">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4896">
+        <state line="32" column="19" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/controllers/Operations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="8" selection-start="7991" selection-end="7991" vertical-scroll-proportion="0.0" vertical-offset="4104" max-vertical-offset="4998">
+        <state line="12" column="16" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4998">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/license-eplv10-aslv20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="325" column="100" selection-start="16847" selection-end="16847" vertical-scroll-proportion="0.4363002" vertical-offset="5275" max-vertical-offset="9877">
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1389195742858" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389195742858" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389195742858" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1389195742858" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/jetty-distribution-9.0.5.v20130815/webapps.demo/ROOT/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="362" selection-end="362" vertical-scroll-proportion="0.30357143" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/MainMenu.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="5321">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/views/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2294" selection-end="2294" vertical-scroll-proportion="0.87472034" vertical-offset="85" max-vertical-offset="10285">
+        <state line="260" column="31" selection-start="7512" selection-end="7512" vertical-scroll-proportion="0.0" vertical-offset="3507" max-vertical-offset="10285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/welker/linkchecker/models/MARCDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="73" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.6655481" vertical-offset="0" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
