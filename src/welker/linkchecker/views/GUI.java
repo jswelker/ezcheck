@@ -9,6 +9,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import javafx.scene.control.*;
 import welker.linkchecker.MainApp;
 
 import javafx.fxml.FXML;
@@ -21,16 +22,6 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.control.Tab;
-import javafx.scene.control.TabPane;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
 import javafx.scene.input.InputMethodEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
@@ -78,8 +69,10 @@ public class GUI implements Initializable{
 
     @FXML private TextArea ignoreLinks;
 
-
-    //private ExecutorService uiUpdatePool;
+    @FXML private MenuItem saveSettings;
+    @FXML private MenuItem openSettings;
+    @FXML private MenuItem about;
+    @FXML private MenuItem getHelp;
 
 
 	public GUI(MainApp app){

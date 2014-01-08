@@ -5,13 +5,14 @@
 <?import javafx.collections.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.input.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane id="root" maxHeight="618.0" maxWidth="850.0" minHeight="500.0" minWidth="850.0" prefHeight="618.0" prefWidth="850.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <!-- TODO Add Nodes -->
   <children>
-    <TabPane fx:id="tabs" layoutX="15.0" layoutY="24.0" prefHeight="279.0" prefWidth="400.0" style="" tabClosingPolicy="UNAVAILABLE">
+    <TabPane fx:id="tabs" layoutX="15.0" layoutY="39.0" prefHeight="279.0" prefWidth="400.0" style="" tabClosingPolicy="UNAVAILABLE">
       <tabs>
         <Tab id="textTab" fx:id="textTab" style="" text="Import Text File">
           <content>
@@ -207,7 +208,7 @@
         </Tab>
       </tabs>
     </TabPane>
-    <TitledPane animated="false" collapsible="false" focusTraversable="false" layoutX="448.0" layoutY="24.0" prefHeight="114.0" prefWidth="400.0" text="Output Settings">
+    <TitledPane animated="false" collapsible="false" focusTraversable="false" layoutX="448.0" layoutY="39.0" prefHeight="114.0" prefWidth="400.0" text="Output Settings">
       <content>
         <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="84.0" prefWidth="394.0">
           <children>
@@ -246,10 +247,10 @@
         </AnchorPane>
       </content>
     </TitledPane>
-    <Button fx:id="start" defaultButton="true" disable="false" layoutX="476.0" layoutY="568.0" mnemonicParsing="false" prefWidth="150.0" text="Start" />
-    <Button fx:id="stop" cancelButton="true" disable="true" layoutX="648.0" layoutY="568.0" mnemonicParsing="false" prefWidth="150.0" text="Stop" />
-    <Separator layoutX="431.0" layoutY="24.0" orientation="VERTICAL" prefHeight="522.0" />
-    <TitledPane animated="false" collapsible="false" disable="false" expanded="true" focusTraversable="false" layoutX="450.0" layoutY="153.0" prefHeight="393.0" prefWidth="387.0" text="Results" textAlignment="LEFT">
+    <Button fx:id="start" defaultButton="true" disable="false" layoutX="476.0" layoutY="583.0" mnemonicParsing="false" prefWidth="150.0" text="Start" />
+    <Button fx:id="stop" cancelButton="true" disable="true" layoutX="648.0" layoutY="583.0" mnemonicParsing="false" prefWidth="150.0" text="Stop" />
+    <Separator layoutX="431.0" layoutY="39.0" orientation="VERTICAL" prefHeight="522.0" />
+    <TitledPane animated="false" collapsible="false" disable="false" expanded="true" focusTraversable="false" layoutX="450.0" layoutY="168.0" prefHeight="393.0" prefWidth="387.0" text="Results" textAlignment="LEFT">
       <content>
         <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="302.0" prefWidth="381.0">
           <children>
@@ -265,7 +266,7 @@
         </AnchorPane>
       </content>
     </TitledPane>
-    <TitledPane animated="false" collapsible="false" layoutX="14.0" layoutY="319.0" prefHeight="227.0" prefWidth="400.0" text="Link Options">
+    <TitledPane animated="false" collapsible="false" layoutX="14.0" layoutY="334.0" prefHeight="227.0" prefWidth="400.0" text="Link Options">
       <content>
         <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="205.0" prefWidth="394.0">
           <children>
@@ -275,6 +276,30 @@
         </AnchorPane>
       </content>
     </TitledPane>
+    <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="850.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Save Settings" fx:id="saveSettings">
+              <accelerator>
+                <KeyCodeCombination alt="UP" code="S" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+              </accelerator>
+            </MenuItem>
+            <MenuItem mnemonicParsing="false" text="Open Settings" fx:id="openSettings">
+              <accelerator>
+                <KeyCodeCombination alt="UP" code="O" control="ANY" meta="UP" shift="UP" shortcut="UP" />
+              </accelerator>
+            </MenuItem>
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Get Help" fx:id="getHelp" />
+            <MenuItem mnemonicParsing="false" text="About" fx:id="about" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
   </children>
   <stylesheets>
     <URL value="@styles.css" />
