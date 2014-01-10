@@ -54,7 +54,7 @@ public class SettingsFile {
     public void writeSettings(  HashMap<String, String> settings){
 
         try{
-            FileWriter fw = new FileWriter(file, true);
+            FileWriter fw = new FileWriter(file, false);
             BufferedWriter bw = new BufferedWriter(fw);
 
             //write the data
